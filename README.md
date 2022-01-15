@@ -31,7 +31,7 @@ To illustrate this, we’ve introduced Average Joe.
 ## **Approach**
 In order to build our model portfolios, we must first understand the characteristics of our asset classes. Our fundamental asset categories are stocks, bonds, gold, and bitcoin, and so we created a representative basket of 11 ETFs (as well as the historical price of BTC). To determine the properties and relationships of these assets, our team ran several correlation analysis, summarized below.
 
-<center><img src = "https://github.com/JakeKJShin/Project_1_Team_2/blob/ray_draft/readme%20Images/heat_map2.png" width = "600" height = "250"></center>
+<center><img src = "https://github.com/JakeKJShin/Project_1_Team_2/blob/ray_draft/readme%20Images/heat_map2.png" width = "600" height = "250" class = "center"></center>
 
 We can see here that Bitcoin best correlates to XLF, the energy sector ETF, with a value of X
 
