@@ -24,11 +24,8 @@ To illustrate this, we’ve introduced Average Joe.
 
 <br>
 
-<center> <img src = "https://github.com/JakeKJShin/Project_1_Team_2/blob/ray_draft/readme%20Images/Average_Joe.PNG" width = "600" height = "250"> </center>
-
-
 <p align="center" width="100%">
-    <img width="33%" src="https://github.com/JakeKJShin/Project_1_Team_2/blob/ray_draft/readme%20Images/Average_Joe.PNG"> 
+    <img width="100%" src="https://github.com/JakeKJShin/Project_1_Team_2/blob/ray_draft/readme%20Images/Average_Joe.PNG"> 
 </p>
 
 <br>
