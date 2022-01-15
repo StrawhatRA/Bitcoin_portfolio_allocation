@@ -24,20 +24,20 @@ To illustrate this, we’ve introduced Average Joe.
 
 <br>
 
-<center> <img src = "readme images\Average_Joe.png" width = "600" height = "250"> </center>
+<center> <img src = "Average_Joe.png" width = "600" height = "250"> </center>
 
 <br>
 
 ## **Approach**
 In order to build our model portfolios, we must first understand the characteristics of our asset classes. Our fundamental asset categories are stocks, bonds, gold, and bitcoin, and so we created a representative basket of 11 ETFs (as well as the historical price of BTC). To determine the properties and relationships of these assets, our team ran several correlation analysis, summarized below.
 
-<center><img src = "readme images\heat_map2.png" width = "600" height = "250"></center>
+<center><img src = "heat_map2.png" width = "600" height = "250"></center>
 
 We can see here that Bitcoin best correlates to XLF, the energy sector ETF, with a value of X
 
 <br>
 The daily standard deviation of bitcoin is an obvious outlier with a value of X. We believe the increased volatility of bitcoin and the Dow Jones Transportation index is due to the major impacts of the initial crash of Covid-19 and its impact on the logistics industry. The below graph displays the standard deviation of  
-<center><img src = "readme images\std_dev.png" width = "550" height = "250"></center>
+<center><img src = "std_dev.png" width = "550" height = "250"></center>
 
 
 <br>
@@ -47,10 +47,10 @@ The daily standard deviation of bitcoin is an obvious outlier with a value of X.
 Based on popularized recommended allocations in modern portfolios (similar to the 60/40 structure typically advised by Investment Managers), we’ve chosen four portfolios and assigned crypto allocations as 0%, 5%, 10%, and 20%. The generic portfolio breakdowns are as follows:
 
 <center>
-<img src = "readme images\pf_a.png" width = "250" height = "200">
-<img src = "readme images\pf_b.png" width = "250" height = "200"> <br>
-<img src = "readme images\pf_c.png" width = "250" height = "200">
-<img src = "readme images\pf_d.png" width = "250" height = "200">
+<img src = "pf_a.png" width = "250" height = "200">
+<img src = "pf_b.png" width = "250" height = "200"> <br>
+<img src = "pf_c.png" width = "250" height = "200">
+<img src = "pf_d.png" width = "250" height = "200">
 </center>
 
 <br>
@@ -59,8 +59,8 @@ Based on popularized recommended allocations in modern portfolios (similar to th
 Running each of these portfolios through a 5-year Monte Carlo analysis, we arrive at the following possible return ranges.
 
 <center>
-<img src = "readme images\cum_return.png" width = "425" height = "250">
-<img src = "readme images\return_ranges.png" width = "425" height = "250">
+<img src = "cum_return.png" width = "425" height = "250">
+<img src = "return_ranges.png" width = "425" height = "250">
 </center>
 However, what if our Average Joe wanted to allocate funds according to his own specific tolerance for risk? Or, alternatively, what is the most efficient weighting of a portfolio containing crypto regarding optimal risk and return metrics?
 
@@ -73,7 +73,7 @@ The efficient frontier consists of investment portfolios that offer the highest 
 By randomly generating 1000 portfolio weights, we can plot their most efficient returns per unit of risk for each portfolio.
 
 <center>
-<img src = "readme images\ef.png" width = "600" height = "400">
+<img src = "ef.png" width = "600" height = "400">
 </center>
 We note the characteristics of two significant portfolios:
 
@@ -82,14 +82,14 @@ Lowest Volatility Portfolio Distribution = [{‘Volatility’ : 0.135}, {‘Shar
 Highest Sharpe Portfolio Distribution =  [{‘Volatility’ : 0.2}, {‘Sharpe’ : 1.05}, {‘Returns’ : 0.21}, {‘Stocks’ : 0.59}, {‘Bonds’ : 0.18}, {‘Gold’ : 0.10}, {‘Crypto’ : 0.14}]
 
 <center>
-<img src = "readme images\lowest_volatility_portfolio.png" width = "400" height = "400">
-<img src = "readme images\high_sharpe_portfolio.png" width = "400" height = "400">
+<img src = "lowest_volatility_portfolio.png" width = "400" height = "400">
+<img src = "high_sharpe_portfolio.png" width = "400" height = "400">
 </center>
 
 If we were to then apply each of these key portfolio distributions to our Monte Carlo analysis, we can arrive at the forecasted mean returns range.
 
 <center>
-<img src = "readme images\all_portfolios_cum_return.png" width = "600" height = "300">
+<img src = "all_portfolios_cum_return.png" width = "600" height = "300">
 </center>
 
 ## **Conclusion**
