@@ -33,13 +33,17 @@ To illustrate this, we’ve introduced Average Joe.
 ## **Approach**
 In order to build our model portfolios, we must first understand the characteristics of our asset classes. Our fundamental asset categories are stocks, bonds, gold, and bitcoin, and so we created a representative basket of 11 ETFs (as well as the historical price of BTC). To determine the properties and relationships of these assets, our team ran several correlation analysis, summarized below.
 
-<center><img src = "https://github.com/JakeKJShin/Project_1_Team_2/blob/ray_draft/readme%20Images/heat_map2.png" width = "600" height = "250" class = "center"></center>
+<p align="center" width="100%">
+    <img width="100%" src="https://github.com/JakeKJShin/Project_1_Team_2/blob/ray_draft/readme%20Images/heat_map2.png"> 
+</p>
 
 We can see here that Bitcoin best correlates to XLF, the energy sector ETF, with a value of X
 
 <br>
 The daily standard deviation of bitcoin is an obvious outlier with a value of X. We believe the increased volatility of bitcoin and the Dow Jones Transportation index is due to the major impacts of the initial crash of Covid-19 and its impact on the logistics industry. The below graph displays the standard deviation of  
-<center><img src = "https://github.com/JakeKJShin/Project_1_Team_2/blob/ray_draft/readme%20Images/std_dev.png" width = "550" height = "250"></center>
+<p align="center" width="100%">
+    <img width="100%" src="https://github.com/JakeKJShin/Project_1_Team_2/blob/ray_draft/readme%20Images/std_dev.png"> 
+</p>
 
 
 <br>
@@ -48,22 +52,31 @@ The daily standard deviation of bitcoin is an obvious outlier with a value of X.
 
 Based on popularized recommended allocations in modern portfolios (similar to the 60/40 structure typically advised by Investment Managers), we’ve chosen four portfolios and assigned crypto allocations as 0%, 5%, 10%, and 20%. The generic portfolio breakdowns are as follows:
 
-<center>
-<img src = "https://github.com/JakeKJShin/Project_1_Team_2/blob/ray_draft/readme%20Images/pf_a.png" width = "250" height = "200">
-<img src = "https://github.com/JakeKJShin/Project_1_Team_2/blob/ray_draft/readme%20Images/pf_b.png" width = "250" height = "200"> <br>
-<img src = "https://github.com/JakeKJShin/Project_1_Team_2/blob/ray_draft/readme%20Images/pf_c.png" width = "250" height = "200">
-<img src = "https://github.com/JakeKJShin/Project_1_Team_2/blob/ray_draft/readme%20Images/pf_d.png" width = "250" height = "200">
-</center>
+<p align="center" width="100%">
+    <img width="100%" src="https://github.com/JakeKJShin/Project_1_Team_2/blob/ray_draft/readme%20Images/pf_a.png"> 
+</p>
+<p align="center" width="100%">
+    <img width="100%" src="https://github.com/JakeKJShin/Project_1_Team_2/blob/ray_draft/readme%20Images/pf_b.png"> 
+</p>
+<p align="center" width="100%">
+    <img width="100%" src="https://github.com/JakeKJShin/Project_1_Team_2/blob/ray_draft/readme%20Images/pf_c.png"> 
+</p>
+<p align="center" width="100%">
+    <img width="100%" src="https://github.com/JakeKJShin/Project_1_Team_2/blob/ray_draft/readme%20Images/pf_d.png"> 
+</p>
+
 
 <br>
 <br>
 
 Running each of these portfolios through a 5-year Monte Carlo analysis, we arrive at the following possible return ranges.
+<p align="center" width="100%">
+    <img width="100%" src="https://github.com/JakeKJShin/Project_1_Team_2/blob/ray_draft/readme%20Images/cum_return.png"> 
+</p>
+<p align="center" width="100%">
+    <img width="100%" src="https://github.com/JakeKJShin/Project_1_Team_2/blob/ray_draft/readme%20Images/return_ranges.png"> 
+</p>
 
-<center>
-<img src = "https://github.com/JakeKJShin/Project_1_Team_2/blob/ray_draft/readme%20Images/cum_return.png" width = "425" height = "250">
-<img src = "https://github.com/JakeKJShin/Project_1_Team_2/blob/ray_draft/readme%20Images/return_ranges.png" width = "425" height = "250">
-</center>
 However, what if our Average Joe wanted to allocate funds according to his own specific tolerance for risk? Or, alternatively, what is the most efficient weighting of a portfolio containing crypto regarding optimal risk and return metrics?
 
 <br>
@@ -74,25 +87,28 @@ The efficient frontier consists of investment portfolios that offer the highest 
 
 By randomly generating 1000 portfolio weights, we can plot their most efficient returns per unit of risk for each portfolio.
 
-<center>
-<img src = "https://github.com/JakeKJShin/Project_1_Team_2/blob/ray_draft/readme%20Images/ef.png" width = "600" height = "400">
-</center>
+<p align="center" width="100%">
+    <img width="100%" src="https://github.com/JakeKJShin/Project_1_Team_2/blob/ray_draft/readme%20Images/ef.png"> 
+</p>
 We note the characteristics of two significant portfolios:
 
 Lowest Volatility Portfolio Distribution = [{‘Volatility’ : 0.135}, {‘Sharpe’ : 0.277}, {‘Returns’ : 0.031}, {‘Stocks’ : 0.52}, {‘Bonds’ : 0.23}, {‘Gold’ : 0.19}, {‘Crypto’ : 0.05}]
 
 Highest Sharpe Portfolio Distribution =  [{‘Volatility’ : 0.2}, {‘Sharpe’ : 1.05}, {‘Returns’ : 0.21}, {‘Stocks’ : 0.59}, {‘Bonds’ : 0.18}, {‘Gold’ : 0.10}, {‘Crypto’ : 0.14}]
 
-<center>
-<img src = "https://github.com/JakeKJShin/Project_1_Team_2/blob/ray_draft/readme%20Images/lowest_volatility_portfolio.png" width = "400" height = "400">
-<img src = "https://github.com/JakeKJShin/Project_1_Team_2/blob/ray_draft/readme%20Images/high_sharpe_portfolio.png" width = "400" height = "400">
-</center>
+<p align="center" width="100%">
+    <img width="100%" src="https://github.com/JakeKJShin/Project_1_Team_2/blob/ray_draft/readme%20Images/lowest_volatility_portfolio.png"> 
+</p>
+<p align="center" width="100%">
+    <img width="100%" src="https://github.com/JakeKJShin/Project_1_Team_2/blob/ray_draft/readme%20Images/high_sharpe_portfolio.png"> 
+</p>
 
 If we were to then apply each of these key portfolio distributions to our Monte Carlo analysis, we can arrive at the forecasted mean returns range.
 
-<center>
-<img src = "https://github.com/JakeKJShin/Project_1_Team_2/blob/ray_draft/readme%20Images/all_portfolios_cum_return.png" width = "600" height = "300">
-</center>
+<p align="center" width="100%">
+    <img width="100%" src="https://github.com/JakeKJShin/Project_1_Team_2/blob/ray_draft/readme%20Images/all_portfolios_cum_return.png"> 
+</p>
+
 
 ## **Conclusion**
 The most efficient portfolio allocation for Average Joe represents a crypto allocation of 14%, with an anticipated mean return of 212% over 5 years, bringing his initial investment of $10,000 to $31,300. Sadly, still not enough for a down payment in Toronto! As a rule of thumb for all other investors, your typical portfolio allocation for cryptocurrency should be somewhere between 1%-15%, depending on your risk tolerance.
