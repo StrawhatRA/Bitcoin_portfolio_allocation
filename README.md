@@ -42,7 +42,7 @@ We can see here that Bitcoin best correlates to XLF, the energy sector ETF, with
 <br>
 The daily standard deviation of bitcoin is an obvious outlier with a value of X. We believe the increased volatility of bitcoin and the Dow Jones Transportation index is due to the major impacts of the initial crash of Covid-19 and its impact on the logistics industry. The below graph displays the standard deviation of  
 <p align="center" width="100%">
-    <img width="100%" src="https://github.com/JakeKJShin/Project_1_Team_2/blob/ray_draft/readme%20Images/std_dev.png"> 
+    <img width="75%" src="https://github.com/JakeKJShin/Project_1_Team_2/blob/ray_draft/readme%20Images/std_dev.png"> 
 </p>
 
 
@@ -53,16 +53,16 @@ The daily standard deviation of bitcoin is an obvious outlier with a value of X.
 Based on popularized recommended allocations in modern portfolios (similar to the 60/40 structure typically advised by Investment Managers), we’ve chosen four portfolios and assigned crypto allocations as 0%, 5%, 10%, and 20%. The generic portfolio breakdowns are as follows:
 
 <p align="center" width="100%">
-    <img width="100%" src="https://github.com/JakeKJShin/Project_1_Team_2/blob/ray_draft/readme%20Images/pf_a.png"> 
+    <img width="50%" src="https://github.com/JakeKJShin/Project_1_Team_2/blob/ray_draft/readme%20Images/pf_a.png"> 
 </p>
 <p align="center" width="100%">
-    <img width="100%" src="https://github.com/JakeKJShin/Project_1_Team_2/blob/ray_draft/readme%20Images/pf_b.png"> 
+    <img width="50%" src="https://github.com/JakeKJShin/Project_1_Team_2/blob/ray_draft/readme%20Images/pf_b.png"> 
 </p>
 <p align="center" width="100%">
-    <img width="100%" src="https://github.com/JakeKJShin/Project_1_Team_2/blob/ray_draft/readme%20Images/pf_c.png"> 
+    <img width="50%" src="https://github.com/JakeKJShin/Project_1_Team_2/blob/ray_draft/readme%20Images/pf_c.png"> 
 </p>
 <p align="center" width="100%">
-    <img width="100%" src="https://github.com/JakeKJShin/Project_1_Team_2/blob/ray_draft/readme%20Images/pf_d.png"> 
+    <img width="50%" src="https://github.com/JakeKJShin/Project_1_Team_2/blob/ray_draft/readme%20Images/pf_d.png"> 
 </p>
 
 
