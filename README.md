@@ -97,10 +97,10 @@ Lowest Volatility Portfolio Distribution = [{‘Volatility’ : 0.135}, {‘Shar
 Highest Sharpe Portfolio Distribution =  [{‘Volatility’ : 0.2}, {‘Sharpe’ : 1.05}, {‘Returns’ : 0.21}, {‘Stocks’ : 0.59}, {‘Bonds’ : 0.18}, {‘Gold’ : 0.10}, {‘Crypto’ : 0.14}]
 
 <p align="center" width="100%">
-    <img width="700%" src="https://github.com/JakeKJShin/Project_1_Team_2/blob/ray_draft/readme%20Images/lowest_volatility_portfolio.png"> 
+    <img width="60%" src="https://github.com/JakeKJShin/Project_1_Team_2/blob/ray_draft/readme%20Images/lowest_volatility_portfolio.png"> 
 </p>
 <p align="center" width="100%">
-    <img width="70%" src="https://github.com/JakeKJShin/Project_1_Team_2/blob/ray_draft/readme%20Images/high_sharpe_portfolio.png"> 
+    <img width="60%" src="https://github.com/JakeKJShin/Project_1_Team_2/blob/ray_draft/readme%20Images/high_sharpe_portfolio.png"> 
 </p>
 
 If we were to then apply each of these key portfolio distributions to our Monte Carlo analysis, we can arrive at the forecasted mean returns range.
