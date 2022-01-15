@@ -10,7 +10,9 @@
 <br>
 
 ## Summary
-In this project, we analyzed portfolio returns based on the industry recommended crypto allocation (0-20% of portfolio), as well as the ideal allocation based on personal risk tolerances using the Efficient Frontier method. Our goal was to develop, forecast, and compare several 5-year portfolios that offer the greatest returns per unit of risk. We determined that the most efficient portfolio allocation is stocks (59%), bonds (18%), gold (10%), and crypto (14%). In forecasting this distribution, our ideal portfolio weighting has characteristic risk of σ = 1.51 and a forecasted total return of 212%.
+In this project, we analyzed the use of Bitcoin as a proxy for cryptocurrency asset class and how it performed within a portfolio strategy compared to a portfolio which included only equity, bond and other traditional asset classes. <br>
+
+We also used efficient frontier to find the most efficient portfolio with Bitcoin as part of the mix. Our goal was to develop, forecast, and compare several 5-year portfolios that offer the greatest returns per unit of risk. We determined that the most efficient portfolio allocation is stocks (59%), bonds (18%), gold (10%), and crypto (14%). In forecasting this distribution, our ideal portfolio weighting has characteristic risk of σ = 1.51 and a forecasted total return of 212%.
 
 <br>
 
